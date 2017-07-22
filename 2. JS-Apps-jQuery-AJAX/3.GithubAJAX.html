@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Github AJAX Call</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity=
+            "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+Github Username: <input type="text" id="username" value="testnakov">
+<button onclick="loadRepos()">Load Repos</button>
+
+<ul id="results">
+
+</ul>
+
+<script>
+    function loadRepos() {
+        $("#results").empty();
+
+        let username = $("#username").val();
+        let url = "http://api.github.com/users/" + username + "/repos";
+
+        let request = {
+            method: "GET",
+            url: url,
+            success: displayRepos,
+            error: displayError
+        };
+
+        $.ajax(request);
+
+        function displayRepos(data) {
+            for (let repo of data) {
+                let link = $("<a>").text(repo.full_name);
+                link.attr("href", repo.html_url);
+                $("#results").append($("<li>").append(link));
+            }
+        }
+
+        function displayError() {
+            $("#results").append("<li>Error!</li>");
+        }
+    }
+</script>
+
+</body>
+</html>
