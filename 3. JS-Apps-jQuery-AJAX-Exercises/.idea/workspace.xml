@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14e83044-0d58-4f6b-9fd3-03da303375e0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/3.Messenger.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/4.Phonebook.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/phonebook.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/solution.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../2. JS-Apps-jQuery-AJAX/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../2. JS-Apps-jQuery-AJAX/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -259,7 +253,7 @@
       <updated>1500818224084</updated>
       <workItem from="1500818226314" duration="13960000" />
       <workItem from="1500888681236" duration="176000" />
-      <workItem from="1500888963384" duration="822000" />
+      <workItem from="1500888963384" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="Solutions">
       <created>1500841237346</created>
@@ -268,11 +262,18 @@
       <option name="project" value="LOCAL" />
       <updated>1500841237346</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Solutions">
+      <created>1500889812542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1500889812542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14958000" />
+    <option name="totallyTimeSpent" value="15054000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
