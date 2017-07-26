@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2058fe7f-5b54-4ecc-95c7-4566ddf7b512" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/5. JS-Apps-Async-Programming-Promises-Exercises.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/1.Forecaster.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/forecaster.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/2.SecretKnock.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/2.SecretKnock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/3.FisherGame.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/catch.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../3. JS-Apps-jQuery-AJAX-Exercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../3. JS-Apps-jQuery-AJAX-Exercises/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../4. JS-Apps-Async-Programming-and-Promises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../4. JS-Apps-Async-Programming-and-Promises/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,7 +46,7 @@
       <file leaf-file-name="3.GithubAJAX.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3.GithubAJAX.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
+            <state relative-caret-position="161">
               <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="19" />
               <folding />
             </state>
@@ -58,8 +56,8 @@
       <file leaf-file-name="4.Phonebook.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4.Phonebook.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+            <state relative-caret-position="230">
+              <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -122,7 +120,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,7 +135,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,6 +241,7 @@
       <workItem from="1500888654302" duration="203000" />
       <workItem from="1500888942213" duration="798000" />
       <workItem from="1500967818799" duration="253000" />
+      <workItem from="1501052437359" duration="23000" />
     </task>
     <task id="LOCAL-00001" summary="solutions">
       <created>1500622547619</created>
@@ -262,7 +261,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20448000" />
+    <option name="totallyTimeSpent" value="20471000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -303,6 +302,38 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/1.XMLHttpRequest/1.XMLHttpRequest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.jQueryLoad.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.GithubAJAX.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4.Phonebook.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1403">
+          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1.XMLHttpRequest/1.XMLHttpRequest.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -409,14 +440,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test.html" />
     <entry file="file://$PROJECT_DIR$/4.Phonebook1.html" />
-    <entry file="file://$PROJECT_DIR$/1.XMLHttpRequest/1.XMLHttpRequest.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2.jQueryLoad.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -425,9 +448,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1.XMLHttpRequest/1.XMLHttpRequest.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="10" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/3.GithubAJAX.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
+        <state relative-caret-position="161">
           <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
@@ -435,8 +466,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4.Phonebook.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="230">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
