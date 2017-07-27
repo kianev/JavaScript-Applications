@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13ad7196-9615-4f22-ae09-5100773e3a9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/2.SecretKnock.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/2.SecretKnock.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/3.FisherGame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/catch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../5. JS-Apps-Async-Programming-Promises-Exercises/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="13ad7196-9615-4f22-ae09-5100773e3a9f" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,7 +39,7 @@
         <entry file="file://$PROJECT_DIR$/promiseCatchExample.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -84,7 +78,7 @@
       <file leaf-file-name="solution.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/solution.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-138">
+            <state relative-caret-position="-396">
               <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
               <folding />
             </state>
@@ -148,7 +142,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,6 +156,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,6 +286,7 @@
       <updated>1500889877635</updated>
       <workItem from="1500889880241" duration="14555000" />
       <workItem from="1501052287074" duration="62000" />
+      <workItem from="1501096227137" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="solutions">
       <created>1500911681273</created>
@@ -304,7 +299,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14617000" />
+    <option name="totallyTimeSpent" value="14623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -343,6 +338,62 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promiseThenExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promiseCatchExample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/promisses.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="10" lean-forward="false" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.GithubCommits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="53" lean-forward="true" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.Blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="23" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/solution.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -426,7 +477,7 @@
     <entry file="file://$PROJECT_DIR$/promiseCatchExample.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -449,7 +500,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/solution.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-138">
+        <state relative-caret-position="-396">
           <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
           <folding />
         </state>
