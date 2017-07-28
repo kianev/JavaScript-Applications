@@ -25,7 +25,7 @@ $(document).ready(function () {
                 let option = $("<option>")
                     .text(post.title)
                     .val(post._id);
-
+                console.log(option);
                 $("#posts").append(option);
             }
         }
