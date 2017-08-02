@@ -153,6 +153,12 @@ table td {
     cursor: pointer;
 }
 
+.addImage{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+}
+
 footer {
     background: #333333;
     color: white;

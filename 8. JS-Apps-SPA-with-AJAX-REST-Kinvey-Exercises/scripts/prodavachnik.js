@@ -9,9 +9,7 @@ function startApp() {
     };
 
     sessionStorage.clear();
-
     showHideMenuLinks();
-
     showView("viewHome");
 
     // Bind the navigation menu links
@@ -117,13 +115,16 @@ function startApp() {
         }
 
         function displayTableRow(tr, ad) {
-            let links = [];
+            let readMoreLink = $('<a href="#">[Read more]</a>')
+                .click(displayAdInfo.bind(this, ad));
+            let links = [readMoreLink];
+
             if (ad._acl.creator == sessionStorage["userId"]) {
                 let deleteLink = $('<a href="#">[Delete]</a>')
                     .click(deleteAd.bind(this, ad));
                 let editLink = $('<a href="#">[Edit]</a>')
                     .click(loadAdForEdit.bind(this, ad));
-                links = [deleteLink, ' ', editLink];
+                links = [readMoreLink, ' ',deleteLink, ' ', editLink];
             }
 
             tr.append(
@@ -158,7 +159,8 @@ function startApp() {
                 description: $("#formCreateAd textarea[name=description]").val(),
                 date: $("#formCreateAd input[name=datePublished]").val(),
                 price: $("#formCreateAd input[name=price]").val(),
-                publisher: publisher
+                publisher: publisher,
+                image: $("#formCreateAd input[name=image]").val()
             };
 
             $.ajax({
@@ -193,6 +195,7 @@ function startApp() {
             $("#formEditAd textarea[name=description]").val(ad.description);
             $("#formEditAd input[name=datePublished]").val(ad.date);
             $("#formEditAd input[name=price]").val(ad.price);
+            $("#formEditAd input[name=image]").val(ad.image);
             showView("viewEditAd");
         }
     }
@@ -203,7 +206,8 @@ function startApp() {
             description: $("#formEditAd textarea[name=description]").val(),
             date: $("#formEditAd input[name=datePublished]").val(),
             price: $("#formEditAd input[name=price]").val(),
-            publisher: $("#formEditAd input[name=publisher]").val()
+            publisher: $("#formEditAd input[name=publisher]").val(),
+            image: $("#formEditAd input[name=image]").val()
         };
 
         $.ajax({
@@ -234,6 +238,40 @@ function startApp() {
         function deleteAdSuccess() {
             listAds();
             showInfo("Add deleted!");
+        }
+    }
+
+    function displayAdInfo(ad) {
+        $.ajax({
+            method: "GET",
+            url: baseURL + "appdata/" + appID + "/ads/" + ad._id,
+            headers: getKinveyUserAuthHeaders(),
+            success: displayAdInfoSuccess,
+            error: handleAjaxError
+        });
+
+        $("#viewAdDetails").empty();
+
+        function displayAdInfoSuccess(advert) {
+            let html = $("<div>");
+            html.append(
+                $("<img>").attr("src", advert.image).addClass("addImage"),
+                $("<br>"),
+                $("<label>").text("Title: "),
+                $("<h2>").text(advert.title),
+                $("<label>").text("Price: "),
+                $("<div>").text(advert.price),
+                $("<label>").text("Description: "),
+                $("<p>").text(advert.description),
+                $("<label>").text("Date Published: "),
+                $("<div>").text(advert.date),
+                $("<label>").text("Publisher: "),
+                $("<div>").text(advert.publisher),
+                $("<label>").text("Views: ")
+            );
+
+            html.appendTo($("#viewAdDetails"));
+            showView("viewAdDetails");
         }
     }
 
