@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="19a99daa-a231-4417-a67e-9b2a12fcb383" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../7. JS-Apps-SPA-with-AJAX-REST-Kinvey/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../7. JS-Apps-SPA-with-AJAX-REST-Kinvey/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/9. JS-Apps-ReactJS.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/prodavachnik.js" afterPath="$PROJECT_DIR$/scripts/prodavachnik.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/prodavachnik.css" afterPath="$PROJECT_DIR$/styles/prodavachnik.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,7 +99,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -111,24 +112,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8. JS-Apps-SPA-with-AJAX-REST-Kinvey-Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="8. JS-Apps-SPA-with-AJAX-REST-Kinvey-Exercises" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript.Bower" />
@@ -238,7 +222,7 @@
       <workItem from="1501510043634" duration="3593000" />
       <workItem from="1501565603791" duration="7876000" />
       <workItem from="1501592156978" duration="14306000" />
-      <workItem from="1501683194217" duration="718000" />
+      <workItem from="1501683194217" duration="1396000" />
     </task>
     <task id="LOCAL-00001" summary="solution">
       <created>1501664543271</created>
@@ -247,11 +231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1501664543271</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added read more link">
+      <created>1501684047801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1501684047801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26493000" />
+    <option name="totallyTimeSpent" value="27171000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,7 +283,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution" />
+    <MESSAGE value="added read more link" />
+    <option name="LAST_COMMIT_MESSAGE" value="added read more link" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

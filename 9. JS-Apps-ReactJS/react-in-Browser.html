@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Examples</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+</head>
+
+<body>
+
+<div id="app">A React component will be rendered here</div>
+
+<script type="text/babel">
+
+    let a = "React";
+    let element = <div>Hello, {a}!</div>;
+
+    let Navigation = React.createClass({
+        render: function () {
+            return <div>
+                <a href="#">Home </a>
+                <a href="#">Login </a>
+                <a href="#">Logout </a>
+            </div>;
+        }
+    });
+
+    let Person = React.createClass({
+        render: function () {
+            return (
+                    <div>
+                        <h3>{this.props.name}</h3>
+                        <p>Age: {this.props.age}</p>
+                    </div>
+            );
+        }
+    });
+
+    let Footer = React.createClass({
+        render: function () {
+            return <div id="footer">
+                (c) React App 2017
+            </div>;
+        }
+    });
+
+    let site = <div>
+        <Navigation/>
+        <Person name="Pesho" age="30"/>
+        <Person name="Maria" age="18"/>
+        <Footer/>
+    </div>;
+
+    ReactDOM.render(site,
+        document.getElementById('app'));
+</script>
+
+</body>
+
+</html>
