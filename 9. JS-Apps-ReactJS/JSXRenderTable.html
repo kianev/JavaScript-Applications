@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Examples</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+    <style>
+        table{
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        table th {
+            background: #DDD;
+            padding: 10px;
+        }
+
+        table td {
+            padding: 5px 10px;
+            background: #EEE;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="app">A React component will be rendered here</div>
+
+<script type="text/babel">
+    
+    let Table = React.createClass({
+       render: function () {
+           let titles = this.props.columns.map((col,c) =>
+                <th key={c}>{col}</th>);
+
+           let rows = this.props.rows.map((row, r) =>
+                <tr key={r}>{row.map((cell, c) =>
+                <td key={c}>{cell}</td>)}
+                    <td><button onClick={this.props.delete}>delete</button></td>
+                </tr>);
+
+           return <table>
+               <thead><tr>{titles}<th>Actions</th></tr></thead>
+               <tbody>{rows}</tbody>
+           </table>
+       } 
+    });
+
+    let columns = ["Name", "Age", "Subject"];
+    let rows = [["Pesho", 17, "JS"], ["Gosho", 20, "PHP"], ["Minka", 21, "SQL"]];
+
+    ReactDOM.render(
+       <Table columns={columns} rows={rows} delete={delFunc}/>,
+        document.getElementById('app'));
+
+    function delFunc() {
+        alert("delete clicked!");
+    }
+
+</script>
+
+</body>
+
+</html>

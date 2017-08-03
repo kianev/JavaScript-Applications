@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Examples</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+    <style>
+    </style>
+</head>
+
+<body>
+
+<div id="app">A React component will be rendered here</div>
+
+<script type="text/babel">
+    let List = React.createClass({
+        render: function () {
+            let items = this.props.items.map((item, index) =>
+            <li key={index}>{item}</li>);
+
+            return <ul>{items}</ul>;
+        }
+    });
+
+    let towns = ["Sofia", "Varna", "Plovdiv"];
+    let list = <List items={towns} />;
+
+    ReactDOM.render(
+       list,
+        document.getElementById('app'));
+
+</script>
+
+</body>
+
+</html>

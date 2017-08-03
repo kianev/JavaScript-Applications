@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>React Examples</title>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="https://unpkg.com/babel-standalone"></script>
+    <style>
+        h1 {
+            background: #eee;
+            padding: 10px;
+            width: 260px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="app">A React component will be rendered here</div>
+
+<script type="text/babel">
+
+    let Counter = React.createClass({
+        getInitialState: function () {
+            return {
+                count: Number(this.props.start),
+                styles: {color: "blue"}
+            }
+        },
+        increase:function () {
+            this.setState({
+                count: this.state.count + 1,
+                styles: {color:"green"}
+            })
+        },
+        decrease:function () {
+            this.setState({
+                count: this.state.count + -1,
+                styles: {color:"red"}
+            })
+        },
+        changeColor:function () {
+            this.setState({
+                styles: {color:"blue"}
+            })
+        },
+        render: function() {
+            return (
+                    <h1>Count: &nbsp;
+                        <b style={this.state.styles}>
+                            {this.state.count}
+                            </b>&nbsp;
+                        <button type="button" onClick={this.increase}>+</button>
+                        <button type="button" onClick={this.decrease}>-</button>
+                        <button type="button" onClick={this.changeColor}>Color</button>
+                    </h1>
+            )
+        }
+    });
+
+   /* function sayHello(name) {
+        return <div>Hello, <b>{name}</b>!</div>
+    }
+
+    let greeting = sayHello("Pesho");*/
+
+    ReactDOM.render(
+        <div>
+            <Counter start="5"/>
+            <Counter start="30"/>
+            <Counter start="-50"/>
+        </div>,
+        document.getElementById('app'));
+
+</script>
+
+</body>
+
+</html>
