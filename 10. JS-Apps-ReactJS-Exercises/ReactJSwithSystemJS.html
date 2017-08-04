@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List Towns</title>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/react/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom/dist/react-dom.js"></script>
+    <script src="systemjs.js"></script>
+    <script>
+        SystemJS.config({
+            baseURL: "./dist"
+        })
+    </script>
+
+</head>
+
+<body>
+    <div id="app"></div>
+    <script>
+        SystemJS.import("script.js");
+    </script>
+</body>
+
+</html>

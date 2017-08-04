@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/dist/script.js" />
+        <item url="file://$PROJECT_DIR$/dist/HelloMessage.js" />
+        <item url="file://$PROJECT_DIR$/dist/Form.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/dist/system.js" />
+      <root url="file://$PROJECT_DIR$/dist/scripts/systemjs.js" />
+      <root url="file://$PROJECT_DIR$/dist/scripts/HelloMessage.js" />
+      <root url="file://$PROJECT_DIR$/dist/scripts/script.js" />
+      <root url="file://$PROJECT_DIR$/dist/system.js" />
+      <root url="file://$PROJECT_DIR$/dist/scripts/systemjs.js" />
+      <root url="file://$PROJECT_DIR$/dist/scripts/HelloMessage.js" />
+      <root url="file://$PROJECT_DIR$/dist/scripts/script.js" />
+      <root url="file://$PROJECT_DIR$/dist/script.js" />
+      <root url="file://$PROJECT_DIR$/dist/HelloMessage.js" />
+      <root url="file://$PROJECT_DIR$/dist/Form.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>
