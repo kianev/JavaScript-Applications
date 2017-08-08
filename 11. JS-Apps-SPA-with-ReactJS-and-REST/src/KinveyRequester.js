@@ -43,10 +43,48 @@ let KinveyRequest = (function () {
         })
     }
 
+    function createBook(title,author,description) {
+        return $.ajax({
+            method: "POST",
+            url: baseURL + "appdata/" + appID + "/books",
+            headers: getKinveyUserAuthHeaders(),
+            data: {title:title,author:author,description:description}
+        });
+    }
+
+    function findBookById(bookId) {
+        return $.ajax({
+            method: "GET",
+            url: baseURL + "appdata/" + appID + "/books/" + bookId,
+            headers: getKinveyUserAuthHeaders()
+        });
+    }
+
+    function editBook(bookId, title, author, description) {
+        return $.ajax({
+            method: "PUT",
+            url: baseURL + "appdata/" + appID + "/books/" + bookId,
+            headers: getKinveyUserAuthHeaders(),
+            data: { title, author, description }
+        });
+    }
+
+    function deleteBook(bookId) {
+        return $.ajax({
+            method: "DELETE",
+            url: baseURL + "appdata/" + appID + "/books/" + bookId,
+            headers: getKinveyUserAuthHeaders()
+        });
+    }
+
     return{
         loginUser,
         registerUser,
-        loadBooks
+        loadBooks,
+        createBook,
+        findBookById,
+        editBook,
+        deleteBook
     }
 })();
 
