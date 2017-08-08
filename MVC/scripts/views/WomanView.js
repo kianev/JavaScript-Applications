@@ -3,18 +3,47 @@ class WomanView{
     }
 
     viewWoman(data){
-        let womanDiv = $("<div class='woman-detailer'></div>");
+        //code for mustache.js
+        $(".wrapper").empty();
+        $.get('templates/woman-template.html', function (template) {
+            let renderedHTML = Mustache.render(template, data);
+
+            $('.wrapper').html(renderedHTML);
+        })
+
+      //code for normal MVC
+       /* let womanDiv = $("<div class='woman-detailer'></div>");
         womanDiv.append("<div>Name: " + data.name + "</div>");
         womanDiv.append("<div>Age: " + data.age + "</div>");
         womanDiv.append("<div>Weight: " + data.weigth + "</div>");
         womanDiv.append("<div>Mantalitat: " + data.mantalitat + "</div>");
         $(".wrapper").empty();
-        $(".wrapper").append(womanDiv);
+        $(".wrapper").append(womanDiv);*/
     }
 
     listWomen(data){
+        //code for mustache.js
         $(".wrapper").empty();
-       data.forEach(
+
+        $.get('templates/list-template.html', function (template) {
+            let renderedHTML = Mustache.render(template, {women:data});
+
+            $('.wrapper').html(renderedHTML);
+
+            Sammy(function () {
+                let _self = this;
+
+                $(".detailed-button").click(function (ev) {
+                    _self.trigger('viewDetailed', { id: $(this).attr('id')})
+                });
+            });
+        })
+
+
+
+        //code for normal MVC
+        /*  $(".wrapper").empty();
+         data.forEach(
            function (entity) {
                 let womanDiv = $("<div class='woman'></div>");
                 womanDiv.append("<div>" + entity.name + "</div>");
@@ -31,6 +60,6 @@ class WomanView{
             $(".detailed-button").click(function (ev) {
                 _self.trigger('viewDetailed', { id: $(this).attr('id')})
             });
-        });
+        });*/
 }
 }
