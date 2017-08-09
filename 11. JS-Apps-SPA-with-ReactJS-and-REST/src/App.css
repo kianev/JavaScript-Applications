@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+#infoBox, #errorBox, #loadingBox {
+  display: none;
+  width: 80%;
+  margin: 10px auto;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+#loadingBox {
+  background: #7CB3E9;
+}
+#infoBox {
+  background: #393;
+}
+#errorBox {
+  background: #F50;
+}
+
+#main {
+  width: 45%;
+  margin: 10px auto;
+}
+
+table th {
+  background: #DDD;
+  padding: 10px;
+}
+
+table td {
+  padding: 5px 10px;
+  background: #EEE;
+}
+
