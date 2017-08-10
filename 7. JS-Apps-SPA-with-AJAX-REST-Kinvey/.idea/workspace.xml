@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0749a14-94fb-48e3-ad84-039c3e594b50" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/.idea/MVC.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/scripts/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/scripts/controllers/WomanControler.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/scripts/models/WomanModel.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/scripts/services/authenticationService.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/scripts/utilities/requester.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../MVC/scripts/views/WomanView.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/catalog/Team.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/catalog/Team.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/common/Greeting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/create/CreateForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/create/CreatePage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/edit/EditForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/edit/EditPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/login/LoginForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/login/LoginPage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/register/RegisterForm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/models/observer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/models/requester.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/models/team.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../10. JS-Apps-ReactJS-Exercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../10. JS-Apps-ReactJS-Exercises/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../11. JS-Apps-SPA-with-ReactJS-and-REST/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../11. JS-Apps-SPA-with-ReactJS-and-REST/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/public/index.html" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/App.js" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/App.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/catalog/CatalogPage.js" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/catalog/CatalogPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/common/Header.js" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/common/Header.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/register/RegisterPage.js" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/components/register/RegisterPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/index.js" afterPath="$PROJECT_DIR$/../13. JS-Apps-SPA-with-MVC-ReactJS-REST-Exercises/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../8. JS-Apps-SPA-with-AJAX-REST-Kinvey-Exercises/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../8. JS-Apps-SPA-with-AJAX-REST-Kinvey-Exercises/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../9. JS-Apps-ReactJS/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,8 +68,8 @@
       <file leaf-file-name="books-library.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/books-library.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="3578">
+              <caret line="302" column="13" lean-forward="false" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="13" />
               <folding>
                 <marker date="1501595734393" expanded="true" signature="2714:3040" ph="..." />
                 <marker date="1501595734393" expanded="true" signature="2751:3002" ph="..." />
@@ -240,6 +251,10 @@
       <workItem from="1502110291673" duration="8331000" />
       <workItem from="1502177139486" duration="167000" />
       <workItem from="1502177625732" duration="110000" />
+      <workItem from="1502357143128" duration="7000" />
+      <workItem from="1502358773468" duration="633000" />
+      <workItem from="1502375537627" duration="646000" />
+      <workItem from="1502392962785" duration="1475000" />
     </task>
     <task id="LOCAL-00001" summary="solution">
       <created>1501509850316</created>
@@ -252,7 +267,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50811000" />
+    <option name="totallyTimeSpent" value="53572000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,6 +315,126 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="n#tr#2;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/books-library.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6900">
+          <caret line="300" column="5" lean-forward="true" selection-start-line="300" selection-start-column="5" selection-end-line="300" selection-end-column="5" />
+          <folding>
+            <marker date="1501595734393" expanded="true" signature="2714:3040" ph="..." />
+            <marker date="1501595734393" expanded="true" signature="2751:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="n#tr#2;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/books-library.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4922">
+          <caret line="214" column="5" lean-forward="true" selection-start-line="207" selection-start-column="4" selection-end-line="214" selection-end-column="5" />
+          <folding>
+            <marker date="1501595734393" expanded="true" signature="2714:3040" ph="..." />
+            <marker date="1501595734393" expanded="true" signature="2751:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="n#tr#2;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/books-library.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <marker date="1501595734393" expanded="true" signature="2714:3040" ph="..." />
+            <marker date="1501595734393" expanded="true" signature="2751:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Books.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="34" column="18" lean-forward="false" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+          <folding>
+            <element signature="n#tr#2;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#tr#3;n#table#0;n#div#0;n#section#3;n#main#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/books-library.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/books-library.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="851">
+          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="45" />
+          <folding>
+            <marker date="1501595734393" expanded="true" signature="2714:3040" ph="..." />
+            <marker date="1501595734393" expanded="true" signature="2751:3002" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Books.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -511,6 +646,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/books-library.html" />
+    <entry file="file://$PROJECT_DIR$/styles/books-library.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="897">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Books.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -522,18 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/books-library.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="897">
-          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="47" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/books-library.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="37" column="45" lean-forward="false" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="3578">
+          <caret line="302" column="13" lean-forward="false" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="13" />
           <folding>
             <marker date="1501595734393" expanded="true" signature="2714:3040" ph="..." />
             <marker date="1501595734393" expanded="true" signature="2751:3002" ph="..." />

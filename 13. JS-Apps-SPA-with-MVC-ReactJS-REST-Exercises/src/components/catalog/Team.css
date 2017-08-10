@@ -1,0 +1,11 @@
+.team-box {
+    float: left;
+    width: 20em;
+    border: 3px solid aquamarine;
+    margin: 1em;
+}
+
+.spanner {
+    background-color: aquamarine;
+    display: block;
+}

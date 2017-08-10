@@ -1,20 +1,19 @@
 import React, {Component} from 'react';
-import RegisterForm from './RegisterForm';
-import {register} from '../../models/user';
+import LoginForm from './LoginForm';
+import {login} from '../../models/user';
 import observer from '../../models/observer';
 
-export default class RegisterPage extends Component {
+export default class LoginPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
             username: "",
             password: "",
-            repeat: "",
             inputDisabled: false
         };
         this.onChangeHandler = this.onChangeHandler.bind(this);
         this.onSumbitHandler = this.onSumbitHandler.bind(this);
-        this.onRegisterSuccess = this.onRegisterSuccess.bind(this);
+        this.onLoginSuccess = this.onLoginSuccess.bind(this);
     }
 
     onChangeHandler(event) {
@@ -29,33 +28,27 @@ export default class RegisterPage extends Component {
         this.setState({
             inputDisabled: true
         });
-        if (this.state.password !== this.state.repeat) {
-            this.setState({
-                inputDisabled: false
-            });
-            alert("Password do not match!");
-        } else {
-            register(this.state.username, this.state.password, this.onRegisterSuccess);
-        }
+        login(this.state.username, this.state.password, this.onLoginSuccess);
     }
 
-    onRegisterSuccess(result) {
+    onLoginSuccess(result) {
         this.setState({
             inputDisabled: false
         });
-        observer.onSessionUpdate();
-        this.context.router.push("/");
+        if (result) {
+            observer.onSessionUpdate();
+            this.context.router.push("/");
+        }
     }
 
+
     render() {
-        if (sessionStorage.getItem("username"))  this.context.router.push("/");
         return (
             <div>
-                <h1>Register Page</h1>
-                <RegisterForm
+                <h1>Login Page</h1>
+                <LoginForm
                     username={this.state.username}
                     password={this.state.password}
-                    repeat={this.state.repeat}
                     onChange={this.onChangeHandler}
                     onSubmit={this.onSumbitHandler}
                     inputDisabled={this.state.inputDisabled}
@@ -65,6 +58,6 @@ export default class RegisterPage extends Component {
     }
 }
 
-RegisterPage.contextTypes = {
+LoginPage.contextTypes = {
     router: React.PropTypes.object
 };
